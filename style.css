@@ -48,13 +48,14 @@ body{
 }
 
 .content{
+    min-height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container{
-    min-height: 100svh;
+    
     width: 20rem;
     display: flex;
     flex-direction: column;
@@ -90,6 +91,7 @@ body{
 
 .testimonial-card * {
     margin: 0;
+    flex-grow: 1;
 }
 
 .user-profile{
@@ -131,4 +133,56 @@ body{
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 75em) {
+    .content{
+        min-height: 100vh;
+    }
+
+    .container{
+        width: 75em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 1.6rem;
+    }
+
+    .testimonial-card{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        min-height: -webkit-fill-available;
+        gap: 0rem;
+    }
+
+    .testimonial-card:first-child{
+        background-position-x: 24em;
+        background-size: 7.5em;
+    }
+
+    .testimonial-card:first-child > .user-testimonial{
+        width: 100%
+    }
+
+    .daniel-testimonial-card{
+        grid-column: span 2;
+        height: 18em;
+    }
+
+    .kira-testimonial-card{
+        grid-area: 1 / 4 / 3 / 5;
+        min-height: 40em;
+    }
+
+    .patrick-testimonial-card{
+        grid-column: span 2;
+    }
+
+    .user-review{
+        font-size: 1.35em;
+    }
+
+    .user-testimonial{
+        font-size: 0.9em;
+    }
 }
