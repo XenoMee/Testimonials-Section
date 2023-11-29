@@ -69,6 +69,13 @@ body{
 
 }
 
+.testimonial-card:first-child{
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position-x: 12rem;
+}
+
 .testimonial-card{
     display: flex;
     flex-direction: column;
