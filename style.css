@@ -31,6 +31,10 @@ body{
     color: hsl(0, 0%, 81%);
 }
 
+.text-neutral-white{
+    color: white;
+}
+
 .text-opacity-70{
     opacity: 0.7;
 }
@@ -60,6 +64,9 @@ body{
     gap: 1rem;
 }
 
+.testimonial-card * {
+    margin: 0;
+}
 
 .attribution { 
     font-size: 11px; 
