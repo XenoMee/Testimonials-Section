@@ -61,7 +61,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
 
 }
 
@@ -70,7 +70,7 @@ body{
     background-repeat: no-repeat;
     background-size: 6rem;
     background-position: top right;
-    background-position-x: 12.5rem;
+    background-position-x: 12.2rem;
 }
 
 .testimonial-card{
@@ -80,7 +80,7 @@ body{
     align-items: flex-start;
     gap: 1rem;
     border-radius: 0.5rem;
-    padding: 1.5rem 1.5rem 2rem 2rem;
+    padding: 1.5rem 2rem 2rem 2rem;
 }
 
 .testimonial-card * {
@@ -112,7 +112,12 @@ body{
 
 .user-review{
     text-align: left;
-    font-size: 1.26rem;
+    font-size: 1.226rem;
+}
+
+.user-testimonial{
+    font-size: 0.795rem;
+    line-height: 1.5;
 }
 
 .attribution { 
