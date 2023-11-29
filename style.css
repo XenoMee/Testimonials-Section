@@ -48,7 +48,7 @@ body{
 }
 
 .pd-2{
-    padding: 2rem;
+    padding: 1.5rem 2rem 2rem 2rem;
 }
 
 .content{
@@ -72,8 +72,9 @@ body{
 .testimonial-card:first-child{
     background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
+    background-size: 6rem;
     background-position: top right;
-    background-position-x: 12rem;
+    background-position-x: 13rem;
 }
 
 .testimonial-card{
@@ -90,16 +91,26 @@ body{
 }
 
 .user-profile{
+    max-width: 9rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1rem;
+}
+
+.user-profile-image:first-child{
+    border: 0.15rem solid mediumpurple;
 }
 
 .user-profile-image{
-    width: 2rem;
+    width: 1.8rem;
     float: left;
     border-radius: 50%;
+}
+
+.user-name,
+.user-status{
+    font-size: 0.8rem;
 }
 
 .attribution { 
