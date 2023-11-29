@@ -152,8 +152,7 @@ body{
     .testimonial-card{
         padding-top: 1em;
         padding-bottom: 1em;
-        min-height: -webkit-fill-available;
-        gap: 0.5rem;
+        gap: 1rem;
     }
 
     .testimonial-card:first-child{
@@ -162,7 +161,7 @@ body{
     }
 
     .testimonial-card:first-child > .user-testimonial{
-        width: 100%
+        width: 100%;
     }
 
     .daniel-testimonial-card{
