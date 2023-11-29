@@ -35,6 +35,17 @@ body{
     opacity: 0.5;
 }
 
+.pd-2{
+    padding: 2rem;
+}
+
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
 
 .attribution { 
