@@ -74,6 +74,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
+    border-radius: 0.5rem;
 }
 
 .testimonial-card * {
@@ -84,7 +85,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
 }
 
 .user-profile-image{
