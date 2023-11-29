@@ -19,8 +19,12 @@ body{
     background-color: hsl(0, 0%, 100%);
 }
 
-.bg-neutral-light-gray{
+.bg-neutral-light-grayish-blue{
     background-color: hsl(210, 46%, 95%);
+}
+
+.text-neutral-dark-grayish{
+    color: hsl(217, 19%, 35%);
 }
 
 .text-neutral-light-gray{
@@ -37,6 +41,14 @@ body{
 
 .pd-2{
     padding: 2rem;
+}
+
+.container{
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .testimonial-card{
