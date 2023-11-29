@@ -43,12 +43,8 @@ body{
     opacity: 0.5;
 }
 
-.border-violet-1{
-    border: 0.15rem solid hsl(263, 55%, 52%);
-}
-
-.pd-2{
-    
+.border-mediumpurple{
+    border: 0.15rem solid mediumpurple;
 }
 
 .content{
@@ -92,16 +88,13 @@ body{
 }
 
 .user-profile{
-    max-width: 9rem;
+    max-width: 10rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
 
-.user-profile-image:first-child{
-    border: 0.15rem solid mediumpurple;
-}
 
 .user-profile-image{
     width: 1.7rem;
@@ -109,9 +102,12 @@ body{
     border-radius: 50%;
 }
 
-.user-name,
+.user-name{
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
 .user-status{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 .user-review{
