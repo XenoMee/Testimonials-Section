@@ -73,6 +73,10 @@ body{
     background-position-x: 12.2rem;
 }
 
+.testimonial-card:first-child > .user-testimonial{
+    width: 15.2rem;
+}
+
 .testimonial-card{
     display: flex;
     flex-direction: column;
