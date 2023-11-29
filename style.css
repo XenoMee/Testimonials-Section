@@ -43,17 +43,29 @@ body{
     opacity: 0.5;
 }
 
+.border-violet-1{
+    border: 0.15rem solid hsl(263, 55%, 52%);
+}
+
 .pd-2{
     padding: 2rem;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     min-height: 100svh;
+    width: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     gap: 2rem;
+
 }
 
 .testimonial-card{
@@ -66,6 +78,16 @@ body{
 
 .testimonial-card * {
     margin: 0;
+}
+
+.user-profile{
+    flex-grow: 1;
+}
+
+.user-profile-image{
+    width: 2rem;
+    float: left;
+    border-radius: 50%;
 }
 
 .attribution { 
