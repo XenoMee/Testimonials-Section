@@ -51,7 +51,7 @@ h6 {
 /* Small line-height for large text */
 h1,
 h2 {
-  line-height: 1.1;
+  /* line-height: 1.2; */
 }
 
 /* General/Generic */
@@ -61,18 +61,23 @@ body {
   font-size: var(--fs-default);
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
-  line-height: 1.5;
+  line-height: 1.4;
   min-height: 100svh;
 }
 
 blockquote {
   display: grid;
   grid-template-columns: min-content 1fr;
-  gap: 1.5rem 1rem;
+  gap: 1rem;
   align-items: center;
 }
 
 /* Typography */
+.user-name,
+.user-status {
+  line-height: 1;
+}
+
 .user-status {
   font-size: 0.6875rem;
   opacity: 0.5;
