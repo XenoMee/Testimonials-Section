@@ -65,6 +65,10 @@ body {
 }
 
 /* Typography */
+.user-status {
+  font-size: 0.6875;
+  opacity: 0.5;
+}
 
 /* Layout */
 .testimonial-card {
