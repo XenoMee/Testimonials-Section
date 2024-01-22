@@ -89,6 +89,10 @@ body {
 }
 
 /* Layout */
+.quotes {
+  display: grid;
+}
+
 .testimonial-card {
   border-radius: 0.5rem;
   padding: 1.5rem 2rem;
