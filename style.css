@@ -74,6 +74,10 @@ body {
   font-size: 1.25rem;
 }
 
+.user-experience {
+  opacity: 0.7;
+}
+
 /* Layout */
 .testimonial-card {
   border-radius: 0.5rem;
