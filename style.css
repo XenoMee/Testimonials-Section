@@ -64,6 +64,11 @@ body {
   min-height: 100svh;
 }
 
+blockquote {
+  display: grid;
+  row-gap: var(--content-spacing);
+}
+
 /* Typography */
 .user-status {
   font-size: 0.6875rem;
@@ -92,8 +97,6 @@ body {
   border-radius: var(--content-br);
   padding: var(--content-padding);
   box-shadow: 0rem 0.3rem 0.5rem 0rem rgba(0, 0, 0, 0.5);
-
-  display: grid;
 }
 
 .testimonial-card:first-child {
