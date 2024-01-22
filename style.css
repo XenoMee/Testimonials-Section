@@ -14,11 +14,17 @@
   --fw-bold: 600;
 }
 
+/* Use a more-intuitive box-sizing model */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* Remove default margins and padding */
+* {
   margin: 0;
+  padding: 0;
 }
 
 body {
