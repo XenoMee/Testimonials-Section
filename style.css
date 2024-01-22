@@ -93,6 +93,9 @@ blockquote {
   --content-padding: 1.5rem 2rem;
   --content-br: 0.5rem;
 
+  width: 90%;
+  margin: 4rem auto;
+  list-style: none;
   display: grid;
   gap: var(--content-spacing);
 }
