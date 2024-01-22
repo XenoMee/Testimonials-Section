@@ -82,6 +82,12 @@ body {
   color: var(--clr-neutral-300);
 }
 
+.testimonial-card:nth-child(3),
+.testimonial-card:nth-child(5) {
+  background-color: var(--clr-primary-100);
+  color: var(--clr-primary-900);
+}
+
 /* Layout */
 .testimonial-card {
   border-radius: 0.5rem;
