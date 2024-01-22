@@ -118,6 +118,14 @@ blockquote {
   color: var(--clr-primary-900);
 }
 
+.testimonial-card:nth-child(2) {
+  background-color: var(--clr-primary-700);
+}
+
+.testimonial-card:nth-child(4) {
+  background-color: var(--clr-primary-900);
+}
+
 .user-profile-image {
   max-width: 2rem;
   border-radius: 50%;
