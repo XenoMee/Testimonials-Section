@@ -90,25 +90,6 @@ body {
   border-radius: 50%;
 }
 
-.user-name {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.user-status {
-  font-size: 0.75rem;
-}
-
-.user-review {
-  font-size: 1.22rem;
-  opacity: 0.9;
-}
-
-.user-testimonial {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
 @media (min-width: 75em) {
   .content {
     min-height: 100vh;
