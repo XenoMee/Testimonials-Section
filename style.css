@@ -78,13 +78,8 @@ body {
   background-position-x: 12.2rem;
 }
 
-.testimonial-card:first-child > .user-testimonial {
-  max-width: 15.2rem;
-}
-
 .user-profile {
-  max-width: 10rem;
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
