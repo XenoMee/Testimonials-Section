@@ -77,12 +77,12 @@ blockquote {
 }
 
 .user-quote {
-  /* grid-column: span 2; */
+  grid-column: span 2;
   font-size: 1.25rem;
 }
 
 .user-experience {
-  /* grid-column: span 2; */
+  grid-column: span 2;
   opacity: 0.7;
 }
 
