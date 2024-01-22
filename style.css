@@ -67,7 +67,7 @@ body {
 blockquote {
   display: grid;
   grid-template-columns: min-content 1fr;
-  row-gap: var(--content-spacing);
+  gap: var(--content-spacing) 1rem;
 }
 
 /* Typography */
