@@ -82,13 +82,14 @@ body {
 .quotes {
   --content-spacing: 2rem;
   --content-padding: 1.5rem 2rem;
+  --content-br: 0.5rem;
 
   display: grid;
   gap: var(--content-spacing);
 }
 
 .testimonial-card {
-  border-radius: 0.5rem;
+  border-radius: var(--content-br);
   padding: var(--content-padding);
   box-shadow: 0rem 0.3rem 0.5rem 0rem rgba(0, 0, 0, 0.5);
 }
