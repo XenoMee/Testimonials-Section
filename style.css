@@ -61,6 +61,7 @@ body {
   font-size: var(--fs-default);
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
+  line-height: 1.5;
   min-height: 100svh;
 }
 
