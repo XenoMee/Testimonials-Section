@@ -126,6 +126,10 @@ blockquote {
   background-color: var(--clr-primary-900);
 }
 
+.testimonial-card:nth-child(4) .user-profile-image {
+  outline: 0.15rem solid var(--clr-primary-500);
+}
+
 .user-profile-image {
   max-width: 2rem;
   border-radius: 50%;
