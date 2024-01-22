@@ -9,6 +9,9 @@
   --fs-default: 0.8125;
 
   --ff-base: "Barlow Semi Condensed", sans-serif;
+
+  --fw-regular: 500;
+  --fw-bold: 600;
 }
 
 *,
