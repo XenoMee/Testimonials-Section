@@ -48,6 +48,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* Small line-height for large text */
+h1,
+h2 {
+  line-height: 1.1;
+}
+
 body {
   margin: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
