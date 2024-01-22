@@ -93,13 +93,6 @@ body {
   background-position-x: 12.2rem;
 }
 
-.user-profile {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-}
-
 .user-profile-image {
   max-width: 1.9rem;
   border-radius: 50%;
