@@ -96,6 +96,7 @@ body {
 }
 
 .testimonial-card:first-child {
+  background-color: var(--clr-primary-500);
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-size: 6rem;
