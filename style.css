@@ -124,16 +124,6 @@ body {
   line-height: 1.5;
 }
 
-.attribution {
-  font-size: 0.8rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 75em) {
   .content {
     min-height: 100vh;
