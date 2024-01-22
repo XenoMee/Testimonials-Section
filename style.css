@@ -73,19 +73,16 @@ blockquote {
 }
 
 /* Typography */
-.user-name,
-.user-status {
-  line-height: 1;
-}
-
 .user-status {
   font-size: 0.6875rem;
   opacity: 0.5;
+  letter-spacing: 1px;
 }
 
 .user-quote {
   grid-column: span 2;
   font-size: 1.25rem;
+  font-weight: var(--fw-bold);
 }
 
 .user-experience {
