@@ -67,7 +67,7 @@ body {
 blockquote {
   display: grid;
   grid-template-columns: min-content 1fr;
-  gap: var(--content-spacing) 1rem;
+  gap: 1.5rem 1rem;
   align-items: center;
 }
 
@@ -122,7 +122,7 @@ blockquote {
 .testimonial-card:nth-child(3),
 .testimonial-card:nth-child(5) {
   background-color: var(--clr-primary-100);
-  color: var(--clr-primary-900);
+  color: var(--clr-primary-700);
 }
 
 .testimonial-card:nth-child(2) {
