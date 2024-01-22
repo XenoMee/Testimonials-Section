@@ -90,6 +90,9 @@ body {
 
 /* Layout */
 .quotes {
+  --content-spacing: 1rem;
+  --content-padding: 1rem;
+
   display: grid;
 }
 
