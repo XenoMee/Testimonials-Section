@@ -10,50 +10,6 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-.bg-primary-violet {
-  background-color: hsl(263, 55%, 52%);
-}
-
-.bg-primary-dark-grayish {
-  background-color: hsl(217, 19%, 35%);
-}
-
-.bg-primary-dark-blackish {
-  background-color: hsl(219, 29%, 14%);
-}
-
-.bg-primary-white {
-  background-color: hsl(0, 0%, 100%);
-}
-
-.bg-neutral-light-grayish-blue {
-  background-color: hsl(210, 46%, 95%);
-}
-
-.text-neutral-dark-grayish {
-  color: hsl(217, 19%, 35%);
-}
-
-.text-neutral-light-gray {
-  color: hsl(0, 0%, 81%);
-}
-
-.text-neutral-white {
-  color: white;
-}
-
-.text-opacity-70 {
-  opacity: 0.7;
-}
-
-.text-opacity-50 {
-  opacity: 0.5;
-}
-
-.border-mediumpurple {
-  border: 0.15rem solid mediumpurple;
-}
-
 .content {
   min-height: 100svh;
   margin: 5rem 0;
