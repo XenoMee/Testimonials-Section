@@ -78,6 +78,10 @@ body {
   opacity: 0.7;
 }
 
+.testimonial-card:first-of-type .user-experience {
+  color: var(--clr-neutral-300);
+}
+
 /* Layout */
 .testimonial-card {
   border-radius: 0.5rem;
