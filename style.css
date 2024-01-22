@@ -68,6 +68,7 @@ blockquote {
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: var(--content-spacing) 1rem;
+  align-items: center;
 }
 
 /* Typography */
