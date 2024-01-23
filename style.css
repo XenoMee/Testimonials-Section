@@ -91,7 +91,7 @@ blockquote {
 /* Layout */
 .quotes {
   --content-spacing: 2rem;
-  --content-padding: 1.98rem;
+  --content-padding: 1.5rem 1.6rem;
   --content-br: 0.5rem;
 
   width: 90%;
@@ -149,7 +149,7 @@ blockquote {
 @media (min-width: 55em) {
   .quotes {
     width: 100%;
-    max-width: 85em;
+    max-width: 83em;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
   }
