@@ -149,7 +149,7 @@ blockquote {
 @media (min-width: 50em) {
   .quotes {
     width: 100%;
-    max-width: 80em;
+    max-width: 85em;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
   }
