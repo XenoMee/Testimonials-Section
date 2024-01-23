@@ -146,16 +146,15 @@ blockquote {
   border-radius: 50%;
 }
 
-/* @media (min-width: 50em) {
+@media (min-width: 50em) {
   .quotes {
-    --content-padding: 1rem 1.5rem;
     width: 100%;
     max-width: 80em;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
   }
 
-  .testimonial-card {
+  /* .testimonial-card {
   }
 
   .testimonial-card:first-child {
@@ -169,5 +168,5 @@ blockquote {
 
   .testimonial-card:nth-child(4) {
     grid-column: span 2;
-  }
-} */
+  } */
+}
