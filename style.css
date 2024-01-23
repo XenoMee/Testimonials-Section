@@ -91,7 +91,7 @@ blockquote {
 /* Layout */
 .quotes {
   --content-spacing: 2rem;
-  --content-padding: 1.5rem 1.91rem 2rem;
+  --content-padding: 2rem;
   --content-br: 0.5rem;
 
   width: 90%;
