@@ -154,15 +154,12 @@ blockquote {
     margin: 0 auto;
   }
 
-  /* .testimonial-card {
-  }
-
   .testimonial-card:first-child {
     background-position: top right 20%;
     grid-column: span 2;
   }
 
-  .testimonial-card:nth-child(5) {
+  /* .testimonial-card:nth-child(5) {
     grid-area: 1 / 4 / 3 / 5;
   }
 
